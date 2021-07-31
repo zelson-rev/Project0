@@ -1,0 +1,9 @@
+CREATE TABLE users(
+userid SERIAL NOT NULL,
+firstname VARCHAR(50) NOT NULL,
+lastname VARCHAR(50) NOT NULL,
+username VARCHAR(50) NOT NULL,
+address VARCHAR(50) NOT NULL,
+age INT Not NULL,
+PRIMARY KEY (userid)
+)
