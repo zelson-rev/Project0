@@ -1,11 +1,14 @@
 package net.revature.user;
 
+import java.util.Collections;
 import java.util.Scanner;
 
 public class UserActions {
     private  String fName;
     private String lName;
     private String Accounts [][];
+
+
 
 
 
@@ -44,6 +47,7 @@ public class UserActions {
             switch (input){
                 case 'a':{
                     System.out.println('a');
+
                     break;
                 }
                 case 'b':{

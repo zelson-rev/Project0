@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 import static net.revature.user.UserLogin.bankLogin;
+import static net.revature.user.UserNewAccount.userNewAccount;
+
 
 public class UserMenu {
     public static void menu(){
@@ -26,7 +28,7 @@ public class UserMenu {
             }
             case 'O':
             case 'o': {
-                System.out.println("You chose case b");
+                userNewAccount();
                 break;
             }
 
